@@ -4,9 +4,9 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4a6ad561e63f79dd899a0bc6b5866669f7e4440d48419387a1a3a6026a94cf08
+-- hash: 0c1cb901d03380739dd94cfd67229f9413ae3c4ef4df9f4b57469316e605f314
 
-name:           bitcoin
+name:           bitcoin-rate
 version:        0.1.0.0
 category:       Web
 homepage:       https://github.com/githubuser/bitcoin#readme
@@ -19,10 +19,10 @@ build-type:     Simple
 extra-source-files:
     README.md
 
-executable bitcoin
+executable bitcoin-rate
   main-is: Main.hs
   other-modules:
-      Paths_bitcoin
+      Paths_bitcoin_rate
   hs-source-dirs:
       src
   build-depends:

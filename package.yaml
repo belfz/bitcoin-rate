@@ -1,4 +1,4 @@
-name:                bitcoin
+name:                bitcoin-rate
 version:             0.1.0.0
 #synopsis:
 #description:
@@ -20,6 +20,6 @@ dependencies:
   - http-conduit
 
 executables:
-  bitcoin:
+  bitcoin-rate:
     source-dirs:      src
     main:             Main.hs
